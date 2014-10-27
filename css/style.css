@@ -1,0 +1,679 @@
+
+/*=============== common-css ==============*/
+hr {
+	margin: 0;
+	border-top: 1px solid #e4e4e4;
+}
+a {
+	font-family: 'Raleway';
+}
+.reddit-color {
+	color: #ff5700;
+}
+.reddit-color:hover {
+	color: #ff5700;
+}
+.reddit-bg { 
+	background: #ff5700;
+	border-color: #ff5700;
+}
+.borderless {
+	border: none;
+}
+.nopadding {
+	padding: 0;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+.form-control:focus {
+	border-color: #ff5700;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,87,0,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,87,0,.6);
+}
+/*============== icon-fonts =============*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-5769bq');
+	src:url('../fonts/icomoon.eot?#iefix-5769bq') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-5769bq') format('woff'),
+		url('../fonts/icomoon.ttf?-5769bq') format('truetype'),
+		url('../fonts/icomoon.svg?-5769bq#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-at:before {
+	content: "\e600";
+}
+.icon-social-vimeo:before {
+	content: "\e601";
+}
+.icon-social-twitter:before {
+	content: "\e602";
+}
+.icon-social-pinterest:before {
+	content: "\e603";
+}
+.icon-social-linkedin:before {
+	content: "\e604";
+}
+.icon-social-fb:before {
+	content: "\e605";
+}
+.icon-briefcase:before {
+	content: "\f0d3";
+}
+.icon-chevron-left:before {
+	content: "\f0a4";
+}
+.icon-chevron-right:before {
+	content: "\f078";
+}
+.icon-dashboard:before {
+	content: "\f07d";
+}
+.icon-database:before {
+	content: "\f096";
+}
+.icon-device-mobile:before {
+	content: "\f038";
+}
+.icon-git-branch:before {
+	content: "\f020";
+}
+.icon-home:before {
+	content: "\f08d";
+}
+.icon-person:before {
+	content: "\f018";
+}
+.icon-search:before {
+	content: "\f02e";
+}
+.icon-triangle-down:before {
+	content: "\f05b";
+}
+/*========== 1.HEADER ============*/
+header .page-scroll a{
+	padding: 9px 3px 9px 5px;
+	margin-left: 9px;
+}
+header .page-scroll:nth-child(2) a{
+	padding: 9px 10px 9px 12px;
+}
+header .icon {
+	position: relative;
+	top: 3px;
+	font-size: 18px;
+	display: inline-block;
+	width: 24px;
+}
+header li:nth-child(2) .icon{
+	width: 18px;	
+}
+header li:nth-child(3) .icon {
+	width: 12px;	
+}
+.header-menu {
+	font-size: 16px;
+	font-weight: 600;
+	padding: 2px;
+}
+#sitemap, #home, #login {
+	color: #333;
+	outline: none;
+}
+#sitemap:hover, #home:hover, #login:hover {
+	color: white;
+	background: #333;
+}
+header .navbar-form {
+	margin: 2px 0;
+	padding: 0;
+}
+.navbar-brand {
+	cursor: pointer;
+	color: #333;
+	height: 44px;
+	padding: 15px 0px;
+	font-weight: 500;
+	font-size: 40px;
+	margin: 38px 0;
+}
+.navbar-brand:hover {
+	color: #333;
+}
+header .input-lg {
+	height: 36px;
+	padding: 5px 4px 5px 2px;
+	font-size: 14px;
+	border-radius: 0;
+}
+header .input-lg:focus {
+	border-color: #ff5700;
+	outline: none;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,87,0,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,87,0,.6);
+} 
+.navbar-form.navbar-right:last-child {
+	margin-right: 0;
+}
+/*========== 2.MAIN_NAV ============*/
+#main-nav.container{
+	padding: 0;
+}
+#main-nav>ul>li>a {
+	font-size: 20px;
+	font-weight: 500;
+	color: #333;
+	padding: 16px 36px 14px 0px;
+}
+#main-nav>ul>li>a:hover {
+	color: #ff5700;
+	border-bottom: 2px solid #ff5700;
+	border-top: 2px solid #ff5700;
+	padding-bottom: 12px;
+	padding-top: 14px;
+}
+#main-nav>ul>li:nth-child(1)>a {
+	padding: 16px 47px 14px 12px;
+}
+#main-nav>ul>li:nth-child(1)>a:hover {
+	padding-bottom: 12px;
+	padding-top: 14px;
+}
+#main-nav>ul>li:nth-child(3)>a {
+	padding-right: 20px;
+}
+#main-nav>ul>li:nth-child(4)>a {
+	padding-right: 33px;
+}
+#main-nav span {
+	font-size: 14px;
+	padding-left: 3px;
+}
+/*========== 3.SLIDER ============*/
+#slider-divider-top {
+	margin: 0;
+	border-top-width: 4px;
+}
+#slider-divider-bot {
+	margin: 1px 0 111px 0;
+}
+#slider {
+	background: #efefef;
+}
+#slider .jumbotron {
+	position: absolute;
+	left: 20px;
+	z-index: 999;
+	padding: 29px 26px 0 37px;
+	background-color: rgba(255, 255, 255, 0.6);
+	height: 100%;
+	width: 55.5%;
+	margin-left: 18px;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+#slider .jumbotron h1 {
+	display: block;
+	font: 46px 'Raleway';
+	font-weight: 700;
+	margin-bottom: 19px;
+}
+#slider .jumbotron p {
+	font: 22px 'Raleway';
+	font-weight: 500;
+	letter-spacing: -0.01em;
+	line-height: 1.37;
+	margin-bottom: 31px;
+}
+#slider .jumbotron button {
+	font: 16px 'Raleway';
+	padding: 7px 27px 6px 22px;
+	font-weight: 500;
+	letter-spacing: -0.42mm;
+	background: #ff5700;
+	border-color: #ff5700;
+}
+#slider .jumbotron button:hover {
+	background: #333;
+	border-color: #333;
+}
+#slider .jumbotron button:active {
+	border-color: #ff5700;
+}
+#slider .carousel-indicators {
+	bottom: -41px;
+	padding-right: 11px;
+}
+.carousel-indicators li {
+	width: 14px;
+	height: 14px;
+	background: #ff5700;
+	margin: 0;
+}
+.carousel-indicators li:hover {
+	background: #333;
+}
+.carousel-indicators li.active {
+	width: 14px;
+	height: 14px;
+	background: #e4e4e4;
+	margin: 0;
+}
+.carousel-indicators {
+	bottom: -32px;
+}
+/*========== 4.CONTENT ============*/
+.content.container {
+	padding-left: 7px;
+	padding-right: 17px;
+}
+.content .first-row {
+	padding-bottom: 38px;
+}
+.caption {
+	color: #636363;
+	font-weight: 400;
+}
+.caption p.reddit-bg {
+	width: 106px;
+	height: 106px;
+	border-radius: 50%;
+	margin: 0 auto 28px;
+}
+.first-row .caption span {
+	color: white;
+	line-height: 106px;
+	font-size: 75px;
+}
+.content h3 {
+	font-size: 24px;
+	font-family: 'Open Sans';
+	padding-left: 2px;
+}
+.caption .content-text {
+	margin: 0 0 24px;
+	font-family: 'Open Sans';
+	font-size: 15px;
+	line-height: 1.4;
+}
+.caption p {
+	margin: 0 0 24px;
+	font-family: 'Open Sans';
+	font-size: 15px;
+	line-height: 1.4;
+}
+.caption .btn-default {
+	padding: 6px 18px;
+	font-family: 'Raleway';
+	font-size: 14px;
+}
+.caption .btn-default:hover {
+	color: white;
+	background: #333;
+}
+.content .second-row {
+	padding-top: 55px;
+	padding-bottom: 109px;
+}
+.second-row p {
+	font-size: 15px;
+	line-height: 1.6;
+	word-spacing: -0.1em;
+	margin: 0;
+}
+/*========== 4.1 Client logos ============*/
+.clients a {
+	height: 85px;
+	display: inline-block;
+	margin: 0 20px
+}
+#btn-prev, #btn-next {
+	width: 40px;
+}
+.list-inline>li {
+	padding-left: 0;
+	padding-right: 0;
+}
+.list-inline>li a {
+	margin: 0 auto;
+}
+.clients {
+	margin-bottom: 80px;
+}
+.clients li {
+	width: 242px;
+}
+li.clients-btn {
+	width: 40px;
+	padding-right: 100px;
+}
+li.clients-btn span {
+	line-height: 85px;
+	font-size: 42px;
+	margin: 0 12px;
+	color: #ddd;
+	cursor: pointer;
+}
+li.clients-btn span:hover {
+color: #333;
+}
+li.clients-btn:last-child {
+	padding: 0;
+}
+.clients li a {
+	margin: 0 auto;
+	display: block;
+}
+.clients li:nth-child(2) a {
+	background: url(../img/logo_sprite.png) 0px 0px;
+	width: 197px;
+}
+.clients li:nth-child(3) a {
+	background: url(../img/logo_sprite.png) -197px 0px;
+	width: 128px;
+}
+.clients li:nth-child(4) a {
+	background: url(../img/logo_sprite.png) 371px 0px;
+	width: 192px;
+}
+.clients li:nth-child(5) a {
+	background: url(../img/logo_sprite.png) 179px 0px;
+	width: 179px;
+}
+.col-md-12 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+/*========== 5.FOOTER ============*/
+footer {
+	background: #ddd;
+	padding: 76px 0 43px 10px;
+	font-family: 'Raleway';
+	font-weight: 600;
+}
+footer h3 {
+	font-size: 24px;
+	margin: 0px 12px 8px;
+	font-weight: 700;
+}
+.list-group-item {
+	background: none;
+}
+.contact-list li {
+	padding: 10px 5px 0px 15px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#call-block {
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 4px;
+}
+#call-block .contacts-icon {
+	font-size: 34px;
+	margin-right: 19px;
+}
+#call-block a,#email-block a {
+	font-size: 18px;
+	font-weight: 700;
+}
+.contacts-text {
+	font-size: 18px;
+	font-weight: 500;
+	margin-right: 6px;
+}
+#email-block {
+	clear: left;
+	height: 41px;
+	line-height: 41px;
+}
+#email-block .contacts-icon {
+	font-size: 41px;
+	margin-right: 0px;
+	position: relative;
+	left: -8px;
+}
+footer h4 {
+	margin-top: 45px;
+	font-weight: 600;
+}
+footer .icon {
+	font-size: 47px;
+}
+footer .list-inline>li a span{
+	color: #333;
+}
+footer .list-inline>li a span:hover {
+	color: #fff;
+	background: #333;
+}
+#contact-form {
+	margin-right: 22px;
+}
+#contact-form .form-control { 
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	color: #a1a1a1;
+}
+#contact-form button {
+	margin-top: 15px;
+	padding: 4px 22px;
+	font-size: 17px;
+	font-weight: 700;
+}
+.btn.btn-primary:focus {
+  outline: none;
+}
+#contact-form button:hover {
+	background: #333;
+	border-color: #333;
+	color: #fff;
+}
+#contact-form button:active {
+	border-color: #ff5700;
+}
+#contact-form form {
+	width: 362px;
+	margin: 4px 16px 0 0;
+	float: right;
+}
+#contact-form .form-group {
+	margin-bottom: 13px;
+}
+#contact-form textarea.form-control {
+	resize:none;
+	font-weight: 400;
+}
+small {
+	font-size: 18px;
+	font-family: 'Raleway';
+	font-weight: 600;
+	color: #646464;
+	margin: 22px 42px 0px;
+	display: block;
+	padding-bottom: 10px;
+}
+/*========== 6.MEDIA QUERIES ============*/
+@media only screen and (max-width : 1200px) { 
+	#slider .jumbotron {
+		padding-top: 10px;
+	}	
+	#slider .jumbotron h1 {
+		font-size: 26px;
+	}
+	#slider .jumbotron p {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	#slider .jumbotron button {
+		font: 14px 'Raleway';
+		padding: 2px 18px 2px 18px;
+	}
+	#contact-form form {
+		width: 325px;
+	}	
+}
+@media only screen and (max-width : 992px) {
+	#slider .jumbotron {
+		padding-top: 5px;
+	}
+	#slider .jumbotron h1 {
+		font-size: 25px;
+	}
+	#slider .jumbotron p {
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+	#slider .jumbotron button {
+		font: 14px 'Raleway';
+		padding: 2px 18px 2px 18px;
+	}
+}
+@media only screen and (max-width : 768px) {
+	header .navbar-right {
+		margin-left: 0;
+		margin-right: 0;
+		border-bottom: none;
+	}
+	header .page-scroll {
+		display: inline-block;
+	}
+	header .page-scroll a {
+		padding: 9px 3px 9px 0;
+	}
+	header .page-scroll:nth-child(2) a {
+		padding: 9px 10px 9px 20px;
+	}
+	header .input-lg {
+		margin-top: 6px;
+		border: 1px solid #333;
+		width: 255px;
+	}
+	#main-nav>ul>li:nth-child(1)>a {
+		padding-left: 0;
+	}
+	.navbar-nav {
+		margin: 0 15px;
+	}
+	.navbar-brand {
+		padding: 0 15px;
+		margin-bottom: 16px;
+	}
+	#slider .jumbotron {
+		padding-top: 5px;
+	}
+	#slider .jumbotron h1 {
+		font-size: 15px;
+	}
+	#slider .jumbotron p {
+		font-size: 11px;
+		margin-bottom: 5px;
+	}
+	#slider .jumbotron button {
+		font: 10px 'Raleway';
+		padding: 2px 18px 2px 18px;
+	}
+	.clients .clients-btn {
+		display: none;
+	}
+	.content .second-row {
+		padding-bottom: 10px;
+	}
+	.clients {
+		margin-bottom: 0;
+	}
+	.clients li {
+		width: 100%;
+		margin: 5px 0;
+	}
+	footer {
+		padding-top: 30px;
+	}
+	.contacts {
+		padding-left: 30px;
+		padding-bottom: 15px;
+	}
+	#contact-form form {
+		margin-right: 35px;
+	}
+}
+@media only screen and (max-width : 480px) {
+	#slider .jumbotron {
+		left: 0;
+		width: 100%;
+		margin-left: 0;
+		padding: 5px 5px 0px;
+		text-align: center;
+	}
+	#slider .jumbotron h1 {
+		font-size: 21px;
+		margin: 0;
+	}
+	#slider .jumbotron p {
+		margin-bottom: 4px;
+		font-size: 10px;
+	}
+	#slider .jumbotron button {
+		font: 10px 'Raleway';
+		padding: 2px 18px 2px 18px;
+		letter-spacing: inherit;
+	}
+	#contact-form {
+		margin-right: 0;
+	}	
+	#contact-form form {
+		width: 265px;
+		margin: 0;
+	}
+	footer .icon {
+		font-size: 40px;
+	}
+	small {
+		margin: 22px 25px 0px;
+	}
+}
+@media only screen and (max-width : 320px) {
+	#slider .jumbotron {
+		left: 0;
+		width: 100%;
+		margin-left: 0;
+		padding: 5px 5px 0px;
+		text-align: center;
+	}
+	#slider .jumbotron h1 {
+		font-size: 15px;
+		margin: 0;
+	}
+	#slider .jumbotron p {
+		text-align: justify;
+		font-size: 12px;
+		margin-bottom: -3px;
+	}
+	#slider .jumbotron button {
+		font: 10px 'Raleway';
+		padding: 2px 18px 2px 18px;
+		letter-spacing: inherit;
+	}
+}

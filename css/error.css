@@ -1,0 +1,47 @@
+body {
+	background: url(../img/error-bg.png) fixed no-repeat center center;
+	background-color: #999;
+	background-size: cover;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+span,
+h1 {
+	color: #fff;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+}
+#wrap {
+	margin: 5.2% auto 4% auto;
+	width: 70%;
+}
+#error-msg {
+	background: #222;
+	border-radius: 20px;
+	margin: 0 23%;
+	opacity: 0.5;
+	padding: 3% 0;
+}
+#logo {
+	padding: 5% 1% 5% 1%;
+	text-align: center;
+}
+#logo h1 {
+	display: block;
+	padding: 2em 0em 5em 0em;
+}
+#logo span {
+	font-size: 2em;
+}
+#logo span img {
+	height: 40px;
+	margin: 0px 10px;
+	vertical-align: bottom;
+	width: 40px;
+}
+#logo br + span {
+	font-size: 24px;
+	line-height: 50px;
+}
